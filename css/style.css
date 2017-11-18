@@ -50,6 +50,7 @@
 .register_next_text { font-size: 20px; color: #f9d02e; }
 .deposit { position: absolute!important; top: 87%!important; margin-left: 41%!important; }
 .deposit_next { position: absolute!important; top: 444px!important; margin-left: 60%!important; font-weight: bold!important; }
+.deposit_next_text { font-size: 20px; color: #f9d02e; }
 .play { position: absolute!important; top: 87%!important; margin-left: 63%!important; }
 .container_pay_option { position: absolute!important; top: 8%!important; }
 .pay_option { margin-left: 22px!important; }
