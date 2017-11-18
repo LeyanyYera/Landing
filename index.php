@@ -12,89 +12,110 @@
 </head>
 <body>
     <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-center" style=" top:6px;">
-            <img src="images/Cabezal.png" style="width: 100%" />
-            <div class="col-sm-12 text-center" style="position: absolute; top:6px;">
-                <img src="images/Logo.png">
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-center">
-            <img src="images/Imagen Principal.png" class="img_main"/>
-            <div class="col-sm-12 text-center font_main_white" style="position: absolute; top:45px;">GET A</div>
-            <div class="col-sm-12 text-center font_main_yellow" style="position: absolute; top:65px;">150%</div>
-            <div class="col-sm-12 text-center font_main_yellow" style="position: absolute; top:105px;">BONUS</div>
-            <div class="col-sm-12 text-center font_main_white" style="position: absolute; top:158px;">UP TO</div>
-            <div class="col-sm-12 text-center" style="position: absolute; top:174px;"><span class="rs">R$</span><span class="font_main_yellow">300</span></div>
-            <div class="col-sm-12 text-center font_main_white" style="position: absolute; top:230px;">ON YOUR 1<sup>o</sup> DEPOSIT</div>
-            <div class="col-sm-12 text-center" style="position: absolute; bottom:0px; padding-right: 57px;">
-                <img src="images/Inmortal Romance.png">
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-center">
-            <div style="background-color: #00893d; height: 5px;"></div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-center">
-            <div style="background-color: #212121; padding-top: 15px">
-                <div class="font_body_white">Spin the reels with this exlusive WELCOME OFFER</div> 
-                <div class="font_body_yellow" style="font-weight:bold;margin-top: 15px">***150% BONUS up to R$300***</div>
-                <div  style="margin-top: 15px">
-                    <span class="font_body_white">1.</span>
-                    <span><a style="color: yellow" href="" class="sign_up"><u>Sign up</u></a></span>
-                    <span class="font_body_white"> for an account</span>
-                </div>
-                <div class="font_body_white" style="margin-top: 15px">2. Deposit R$20 0r more</div>
-                <div class="font_body_white" style="margin-top: 15px">3. Get 150% match up to R$300</div>
-
-                <div class="row text-center">
-                    <button class="continue">CONTINUE</button>
-                </div>
-
-                <div class="row text-center" style="margin-top: 15px">
-                     <a href="" style="color:white; font-size:12px;margin-top: 15px"><u>New customers.T&Cs apply.</u></a> 
-                </div>
-                <div class="row text-center" style="margin-top: 15px; padding-bottom: 10px">
-                    <span style="color:white; font-size:9px;">Privacy Policy</span>
-                    <span style="color:white; font-size:9px;">|</span>
-                    <span style="color:white; font-size:9px;">Terms and Conditions</span>
-                    <span style="color:white; font-size:9px;">|</span>
-                    <span style="color:white; font-size:9px;">Contact us</span>
-                </div>            
-            </div>           
-        </div>            
-    </div>
-
-    <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-            <div style="background-color: #00893d; padding-top: 15px; padding-bottom: 5px">
-                <div class="row">
-                    <div class="col-sm-5 col-sm-offset-0 text-center">
-                        <img src="images/Logo.png" style="margin-left: 25px">
-                        <img src="images/Sello oro.png" style="margin-left: 45px">
-                        <img src="images/18mas.png">
-                        <p style="font-size: 9px; color: white; margin-top: 10px; margin-left: -70px;font-family: 'Lato-Bold'">Copyright C 2017 AlegriaBet.com</p>
+        <div class="col-sm-10 col-sm-offset-1" style="background-color: black">
+            
+            <div class="row" >
+                <div class="col-sm-10 col-sm-offset-1">
+                    <img src="images/Cabezal.png" class="image_cabezal"/>
+                    <div class="col-sm-3 col-sm-offset-1 logo" >
+                        <a href=""><img src="images/Logo.png" id="logo"></a>
                     </div>
-                    <div class="col-sm-5 col-sm-offset-1 text-right" style="padding-right: 0px">
-                        <p style="font-size: 9px; color: white; margin-top: 16px; padding-right: 10px; font-family: 'Lato-Bold'">Alegriabrt.com is operated by EJAD TECH LTD B.V.
-                        with domicille in Dr. MJ Hugenholtzweg z/n UTS. Gebouw,
-                        Curacao, holder curaçao gaming license no 1668/JAZ</p>                      
-                    </div> 
-                    <div class="col-sm-1 text-center" style="padding-left: 0px; margin-top: 20px">
-                        <img src="images/Logo Curacao.png" style="padding-right: 15px">
-                    </div>  
-                </div>
-            </div>           
-        </div>            
-    </div>
-    
+                    <div class="col-sm-2 col-sm-offset-10 bandera">
+                        <a href=""><img src="images/Bandera.png" width="30%" id="bandera"></a>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-sm-offset-0">
+                    <img src="images/Background.png" class="background"/>
+                    <div class="col-sm-12 text-center central_text">
+                        <img src="images/GET.png" width="35%" id="get" /> 
+                    </div>
+                    <div class="col-sm-2 col-sm-offset-8 text-right roundLogoDiv">
+                        <img src="images/RoundLogo.png" width="155%" id="roundLogo"> 
+                    </div>
+                    <div class="row text-center continue_div">
+                        <button class="continue">PLAY NOW!</button>
+                    </div>
+                    <div class="row text-center new_customer_div">
+                        <a href=""><p class="new_customer"><u>New customers, T&Cs apply.</u></p></a>
+                    </div>
+                    <div class="row text-center register">
+                        <img src="images/1.png" width="60%" id="register"> 
+                    </div>
+                    <div class="row text-center register_next">
+                        <p class="register_next_text">>></p>
+                    </div>
+                    <div class="row text-center deposit">
+                        <img src="images/2.png" width="60%" id="deposit"> 
+                    </div>
+                    <div class="row text-center deposit_next">
+                        <p class="deposit_next_text">>></p>
+                    </div>
+                    <div class="row text-center play">
+                        <img src="images/3.png" width="60%" id="play"> 
+                    </div>
+                </div>  
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1" style="margin-bottom: 15px;">
+                    <img src="images/Rectangle 2.png" width="100%"/>
+                    <div class="container_pay_option">
+                        <span class="pay_option"><img src="images/boleto bancario.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/tansferenciabancaria.png" width="6%"/></span>
+                        <span class="pay_option"><img src="images/astropaycard.png" width="6%"/></span>
+                        <span class="pay_option"><img src="images/astropaydirect.png" width="6%"/></span>
+                        <span class="pay_option"><img src="images/paypal.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/ecopayz.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/paysafecard.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/cubits.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/skrill.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/neteller.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/itau.png" width="3%"/></span>
+                        <span class="pay_option"><img src="images/Banco brasil.png" width="5%"/></span>
+
+                        <span class="pay_option"><img src="images/bradesco.png" width="7%"/></span>
+                        <span class="pay_option"><img src="images/caixabank.png" width="8%"/></span>
+                        <span class="pay_option"><img src="images/santander.png" width="8%"/></span>
+                        <span class="pay_option"><img src="images/jcb.png" width="4%"/></span>
+                        <span class="pay_option"><img src="images/visa.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/mastercard.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/americanexpress.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/neosurf.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/simpler.png" width="5%"/></span>
+                        <span class="pay_option"><img src="images/safetypay.png" width="6%"/></span>
+                        <span class="pay_option"><img src="images/pagoejecutivo.png" width="6%"/></span>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="footer">
+                        <div class="row">
+                            <div class="col-sm-5 text-center logos_footer_left">
+                                <a href=""><img src="images/Logo.png" class="logo_footer"></a>
+                                <img src="images/Sello oro.png" class="sello_oro">
+                                <img src="images/18mas.png">
+                                <p class="copyright">Copyright C 2017 AlegriaBet.com</p>
+                            </div>
+                            <div class="col-sm-5 col-sm-offset-1 text-right text_footer_container">
+                                <p class="text_footer">Alegriabrt.com is operated by EJAD TECH LTD B.V.
+                                with domicille in Dr. MJ Hugenholtzweg z/n UTS. Gebouw,
+                                Curacao, holder curaçao gaming license no 1668/JAZ</p>                      
+                            </div> 
+                            <div class="col-sm-1 text-center logo_curazao_container">
+                                <a href=""><img src="images/Logo Curacao.png" class="logo_curazao"></a>
+                            </div>  
+                        </div>
+                    </div>           
+                </div>            
+            </div>
+        </div>
+    </div>       
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>

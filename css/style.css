@@ -33,69 +33,68 @@
   font-style: normal;
 }
 
-.img_main{
-    margin-top: 6px; width: 100%
-}
+.image_cabezal { width: 100%; }
+.logo { position: absolute!important; top:18px!important;}
+.bandera { position: absolute!important; top:30px!important;}
+.background { width: 1072px; margin-left: -1px; }
+.central_text { position: absolute!important; top:10%!important; }
+.roundLogoDiv { position: absolute!important; top:30%!important; }
+.roundLogo { right: 5px; }
+.continue_div { position: absolute!important; top: 45%!important; margin-left: 42%!important;}
+.continue { margin-top: 15px; width: 170px; border: .1px solid yellow; color: white; background-image: url("../images/continue.png");
+    font-size: 20px; border-radius: 0px 0px 0px 0px; font-family: 'Lato-BoldItalic'; }
+.new_customer_div { position: absolute!important; top: 79%!important; margin-left: 45%!important;}
+.new_customer { font-size: 9px!important; color: #E9E8E8!important;}
+.register { position: absolute!important; top: 87%!important; margin-left: 21%!important; }
+.register_next { position: absolute!important; top: 444px!important; margin-left: 37%!important; font-weight: bold!important; }
+.register_next_text { font-size: 20px; color: #f9d02e; }
+.deposit { position: absolute!important; top: 87%!important; margin-left: 41%!important; }
+.deposit_next { position: absolute!important; top: 444px!important; margin-left: 60%!important; font-weight: bold!important; }
+.play { position: absolute!important; top: 87%!important; margin-left: 63%!important; }
+.container_pay_option { position: absolute!important; top: 8%!important; }
+.pay_option { margin-left: 22px!important; }
+.footer { background-color: #00933D; }
+.logos_footer_left { margin-top: 15px; }
+.logo_footer { margin-left: 25px; }
+.sello_oro { margin-left: 45px; }
+.copyright { font-size: 9px; color: white; margin-top: 10px; margin-left: -70px;font-family: 'Lato-Bold' }
+.text_footer_container { padding-right: 20px; }
+.text_footer { font-size: 9px; color: white; margin-top: 35px; padding-right: 10px; font-family: 'Lato-Bold' }
+.logo_curazao_container { padding-left: 0px; margin-top: 33px; }
+.logo_curazao { padding-right: 42px; }
 
-.inmortal_romance {
-    position: absolute; 
-    bottom:0px; 
-    padding-right: 57px;
-}
+/*button.continue:hover {
+    background-image: url('../images/continue hover.png'); 
+     color: #0b4004;
+}*/
 
-.rs {
-    color:yellow;
-    text-shadow: 5px 5px 5px #0f0e0e;
-    font-size:28px; 
-    font-family: 'Lato-MediumItalic';
-    font-weight:bold;
-}
-
-.font_main_yellow {
-    color:yellow;
-    text-shadow: 5px 5px 5px #0f0e0e;
-    font-size:48px; 
-    font-family: 'Lato-MediumItalic';
-    font-weight:bold;
-}
-
-.font_main_white {
-    color:white;
-    text-shadow: 5px 5px 5px #0f0e0e;
-    font-size:22px; 
-    font-family: 'Lato-MediumItalic';
-}
-
-.font_body_yellow {
-    color:yellow;
-    font-size:30px; 
-    font-family: 'Lato-Regular';
-}
-
-.font_body_white {
-    color:white; 
-    font-size:24px; 
-    font-family: 'Lato-Regular';
-}
-
-.sign_up {
-    color:yellow;
-    font-size:22px; 
-    font-family: 'Lato-Regular';
-}
-
-.continue {
-    margin-top: 15px; 
-    width: 170px; 
-    border: 1px solid yellow; 
-    color: #0b4004;
-    background-image: url("../images/continue hover.png");
-    font-size: 20px; 
-    border-radius: 0px 0px 0px 0px;
-    font-family: 'Lato-BoldItalic';"
-}
-
-button.continue:hover {
-    background-image: url('../images/continue.png'); 
-    color: white; 
+@media screen and (max-width: 991px){
+    .image_cabezal { width: 102%;}
+    .logo { position: absolute!important; top:0px!important;}
+    #logo {width: 70%; margin-bottom: 5px;}
+    .bandera { position: absolute!important; top:4px!important; margin-left: 80%!important;}
+    #bandera {width: 60%}
+    .background { width: 100%;}
+    #get {width: 40%;}
+    .central_text { position: absolute!important; top:12%!important; margin-left: 30px;}
+    #roundLogo {width: 20%}
+    .roundLogoDiv { position: absolute!important; top:36%!important; margin-left: 0%;}
+    .continue_div { position: absolute!important; top: 45%!important; margin-left: 55%!important;}
+    .continue { margin-top: 15px; width: 56px; border: .1px solid yellow; color: white; background-image: url("../images/continue.png");
+    font-size: 8px; border-radius: 0px 0px 0px 0px; font-family: 'Lato-BoldItalic'; margin-left: -49px!important;}
+    .new_customer_div { position: absolute!important; top: 71%!important; margin-left: 42%!important;}
+    .new_customer { font-size: 5px!important; color: #E9E8E8!important;}
+    .register { position: absolute!important; top: 84%!important; margin-left: 5%!important; }
+    #register {width: 20%}
+    .register_next { position: absolute!important; top: 87%!important; margin-left: 33%!important; font-weight: bold!important; }
+    .register_next_text { font-size: 9px; color: #f9d02e; }
+    #deposit {width: 20%}
+    .deposit { position: absolute!important; top: 84%!important; margin-left: 20%!important; }
+    .deposit_next { position: absolute!important; top: 87%!important; margin-left: 56%!important; font-weight: bold!important; }
+    .deposit_next_text { font-size: 9px; color: #f9d02e; }
+    .play { position: absolute!important; top: 84%!important; margin-left: 45%!important; }
+    #play {width: 20%}
+    /*.container_pay_option { position: absolute!important; top: 8%!important; }*/
+    .pay_option { margin-left: 7px!important; }
+    .text_footer { font-size: 9px; color: white; margin-top: 10px; text-align: center; font-family: 'Lato-Bold' }
 }
